@@ -277,6 +277,16 @@ with st.sidebar:
         st.rerun()
     
     st.markdown("---")
+
+    # 1-1. 개발자 정보
+    developer_info = """
+    <div style='background-color: #f0f2f6; padding: 15px; border-radius: 10px; border: 1px solid #ddd;'>
+        <h4 style='margin-top:0; color: #333; font-size: 16px;'>👨‍💻 개발자 정보</h4>
+        <p style='margin-bottom: 5px; font-size: 14px;'><strong>Name:</strong> Prof. LCH</p>
+        <p style='margin-bottom: 0; font-size: 14px;'><strong>Email:</strong> <a href='mailto:leesleek@ginue.ac.kr' style='text-decoration: none; color: #4A90E2;'>leesleek@ginue.ac.kr</a></p>
+    </div>
+    """
+    st.markdown(developer_info, unsafe_allow_html=True)
     
     # 2. 챗봇 기능 소개 (요청하신 내용 적용)
     st.subheader("🤖 기능 및 사용법")
@@ -316,7 +326,7 @@ with st.sidebar:
     developer_info = """
     <div style='background-color: #f0f2f6; padding: 15px; border-radius: 10px; border: 1px solid #ddd;'>
         <h4 style='margin-top:0; color: #333; font-size: 16px;'>👨‍💻 개발자 정보</h4>
-        <p style='margin-bottom: 5px; font-size: 14px;'><strong>Name:</strong> Prof. LCH</p>
+        <p style='margin-bottom: 5px; font-size: 14px;'><strong>Name:</strong> 이철현(경인교육대학교)</p>
         <p style='margin-bottom: 0; font-size: 14px;'><strong>Email:</strong> <a href='mailto:leesleek@ginue.ac.kr' style='text-decoration: none; color: #4A90E2;'>leesleek@ginue.ac.kr</a></p>
     </div>
     """
